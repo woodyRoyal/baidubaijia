@@ -30,4 +30,4 @@
 
 ## 参考
 > - [vue官网](http://cn.vuejs.org/)
-> - [vue-loader](http://vuejs.github.io/vue-loader)
+> - [vue-loader](https://router.vuejs.org/)
