@@ -29,7 +29,7 @@ export default {
 	height: 80px;
 	padding: 10px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	border-bottom: 1px solid #eee;
 	img{
 		height: 100%;

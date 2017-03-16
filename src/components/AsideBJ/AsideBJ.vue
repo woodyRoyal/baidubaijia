@@ -58,6 +58,9 @@ export default {
 	transition: all 0.5s;
 	transform: translateX(150%);
 	.el-icon-close{
+	  color: green;
+	}
+	.el-icon-close{
 		position: absolute;
 		left: -25px;
 		top: 20px;

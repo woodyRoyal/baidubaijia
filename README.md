@@ -1,7 +1,9 @@
-# 百度百家
-> 利用vue2.0编写的手机端百度百家页面
+# baidubaijia
+
+> test project
 
 ## Build Setup
+
 ``` bash
 # install dependencies
 npm install
