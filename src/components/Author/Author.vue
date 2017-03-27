@@ -1,6 +1,6 @@
 <template>
   <div class="author">
-    <div v-for='templ in 5'>
+    <div v-for='templ in 8'>
     	<AuthorMsg></AuthorMsg>
     </div>
   </div>

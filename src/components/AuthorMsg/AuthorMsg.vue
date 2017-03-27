@@ -8,7 +8,8 @@
 		    	<p>{{authorMsg.job}}</p>
 		    </div>
     	</div>
-	    <span class="focus">{{authorMsg.focus}}</span>
+	    <span class="focus" v-if='status' @click='status = !status'>{{authorMsg.focus}}</span>
+	    <span class="focused" @click='status = !status' v-else>{{authorMsg.focused}}</span>
     </div>
     <div class="pages">
     	<span>{{authorMsg.pageNum}}</span>
@@ -22,10 +23,12 @@ export default {
   name: 'head',
   data () {
     return {
+      status: true,
       authorMsg: {
         author: '冬青',
         job: '媒体人',
-        focus: '加关注',
+        focus: '+加关注',
+        focused: '-已关注',
         pageNum: '文章数： 16',
         lookNum: '阅读数： 117,428'
       }
@@ -59,6 +62,13 @@ export default {
 			padding: 6px 10px;
 			border-radius: 15px;
 			margin-right: 10px;
+		}
+		.focused{
+		  background: #262627;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 15px;
+      margin-right: 10px;
 		}
 	}
 	.pages{

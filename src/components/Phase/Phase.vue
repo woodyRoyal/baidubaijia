@@ -28,7 +28,7 @@ export default {
 .phase{
 	color: #fff;
 	height: 150px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
   background: url(./sanxing.jpg) no-repeat;
   background-size: 100%;
   text-align: center;

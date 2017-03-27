@@ -27,7 +27,7 @@ export default {
 <style lang='stylus'>
 .article{
 	height: 80px;
-	padding: 10px;
+	padding: 1px;
 	display: flex;
 	justify-content: flex-start;
 	border-bottom: 1px solid #eee;
@@ -37,7 +37,7 @@ export default {
 	}
 	.content{
 		color: #333;
-		margin-left: 8px;
+		padding: 4px;
 		text-align: left;
 		display: flex;
 		flex-direction: column;
